@@ -1,0 +1,35 @@
+name: my_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'  # Changed to be more flexible
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Separate line for font_awesome_flutter
+  font_awesome_flutter: ^10.5.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/google.png
+    - assets/facebook.png
+    - assets/background.jpg
+    - assets/sign.png
+    - assets/forgot.jpg
+    - assets/asim.jpg
+    - assets/screen.jpg
+    - assets/sign.jpg
